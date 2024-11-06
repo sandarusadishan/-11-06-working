@@ -1,0 +1,31 @@
+body {
+    background-color: #f0f8ff;
+}
+
+.container {
+    max-width: 400px;
+}
+
+fieldset {
+    border: 2px solid #007bff;
+}
+
+legend {
+    padding: 0 10px;
+    width: auto;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
